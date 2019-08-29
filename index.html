@@ -157,7 +157,7 @@
         <div class="container">
             <h2 class="h2">техника</h2>
             <div class="technics-items">
-                <div class="technics-list technics-item">
+                <div class="technics-list">
                     <ul>
                         <li><img src="img/moiki_smesiteli.png" alt=""><span>мойки + смесители</span></li>
                         <li><img src="img/varochnie_paneli.png" alt=""><span>варочные панели</span></li>
@@ -168,9 +168,11 @@
                         <li><img src="img/prochee.png" alt=""><span>прочее</span></li>
                     </ul>
                 </div>
-                <div class="technics-images technics-item">
-                    <img class="technics-images_oven" src="images/oven.png" alt="">
-                    <img class="technics-images_coffee-maker" src="images/coffee-maker.png" alt="">
+                <div class="technics-images">
+                    <div class="technics-images_left">
+                        <img class="technics-images_oven" src="images/oven.png" alt="">
+                        <img class="technics-images_coffee-maker" src="images/coffee-maker.png" alt="">
+                     </div>
                     <img class="technics-images_dishwasher" src="images/dishwasher.png" alt="">
                 </div>
             </div>
@@ -190,9 +192,7 @@
                     <span class="stock-month-items_text_name">термовлагостойкую итальянскую<br> столешницу «Arpa»</span>
                 </div>
                 <div  class="stock-month-wrap">
-                    <div  class="stock-month-items_decor">
-                        <img src="img/1.png" alt="">
-                    </div>
+                    <img class="stock-month-items_decor" src="img/1.png" alt="">
                     <div class="stock-month-items_limitation">
                         <span class="stock-month-items_limitation_head">срок<br> действия<br> акции</span>
                         <span class="stock-month-items_limitation_date-end">до 30.08.2019</span>
@@ -358,7 +358,7 @@
             <h2 class="h2">контакты</h2>
             <div class="contacts-items">
                 <div class="contacts-map">
-                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab8d2195a4ed423c8f5ed3fe651335f5af7f2dc4e0d0a2e8bf4627e094e3dafce&amp;width=1000&amp;height=590&amp;lang=ru_UA&amp;scroll=true"></script>
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ab8d2195a4ed423c8f5ed3fe651335f5af7f2dc4e0d0a2e8bf4627e094e3dafce&amp;width=100%25&amp;height=590&amp;lang=ru_UA&amp;scroll=true"></script>
                 </div>
                 <div class="contacts-item">
                     <div class="contacts-item_phones">
@@ -375,11 +375,11 @@
                         </div>
                         <div class="contacts-item_social-item">
                             <img class="contacts-item_social-item_img" src="img/insta.png" alt="">
-                            <a href="#">instagram.com/mebel_elana/</a>
+                            <a href="instagram.com/mebel_elana/">instagram.com/mebel_elana/</a>
                         </div>
                         <div class="contacts-item_social-item">
                             <img class="contacts-item_social-item_img" src="img/vk.png" alt="">
-                            <a href="#">vk.com/club157251501</a>
+                            <a href="vk.com/club157251501">vk.com/club157251501</a>
                         </div>
                     </div>
                     <div class="contacts-item_address">
@@ -408,6 +408,24 @@
         </div>
     </section>
 </body>
-<footer>
-
+<footer class="footer">
+    <div class="container">
+        <div class="footer-items">
+            <div class="footer-logo">
+                <img class="footer-logo_img" src="img/logo-white.png" alt="">
+                <small>© Мебельная фабрика Элана 2019</small>
+            </div>
+            <div class="footer-social">
+                <span class="footer-social_head">Мы в соцсетях:</span>
+                <div class="footer-social_items">
+                    <a href="vk.com/club157251501">
+                        <img class="footer-social_img" src="img/vk-white.png" alt="">
+                    </a>
+                    <a href="instagram.com/mebel_elana/">
+                        <img class="footer-social_img" src="img/insta-white.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
 </footer>
