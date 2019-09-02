@@ -80,8 +80,24 @@
     <div class="container">
         <div class="want-present">
             <p><span class="want-present_head">Успей получить свой подарок сейчас!</span><br> количество подарков ограничено</p>
-            <form class="form-button" action="#">
-                <button class="button-order">хочу подарок</button>
+            <form class="form-button open-form" action="#" name="present" method="post">
+                <div class="form_input_item">
+                    <p>Ваше имя<span class="red">*</span></p>
+                    <div class="item_inp">
+                        <input type="text" name="name" placeholder="Элана">
+                        <img class="inp_img" src="img/av.png" alt="">
+                    </div>
+                </div>
+                <div class="form_input_item">
+                    <p>Контактный тел.<span class="red">*</span></p>
+                    <div class="item_inp">
+                        <input type="tel" name="phone-number" placeholder="+7 (978) 783 85 62">
+                        <img class="inp_img" src="img/call.png" alt="">
+                    </div>
+                </div>
+                <div class="form_input_item">
+                    <input class="button-order" type="submit" name="submit" value="ХОЧУ ПОДАРОК">
+                </div>
             </form>
         </div>
     </div>
@@ -148,8 +164,30 @@
                     <img src="images/raboti3.jpg" alt="">
                 </div>
             </div>
-            <form class="form-button form-button-center" action="#">
-                <button class="button-order">смотреть все</button>
+            <div class="form-button form-button-center" action="#">
+                <a class="button-order">смотреть все</a>
+            </div>
+        </div>
+        <div class="our-work-form">
+            <p><span class="want-present_head">бесплатный вызов консультанта-замерщика!</span><br> при оформлении заказа у нас</p>
+            <form class="form-button open-form" action="#" name="present" method="post">
+                <div class="form_input_item">
+                    <p>Ваше имя<span class="red">*</span></p>
+                    <div class="item_inp">
+                        <input type="text" name="name" placeholder="Элана">
+                        <img class="inp_img" src="img/av.png" alt="">
+                    </div>
+                </div>
+                <div class="form_input_item">
+                    <p>Контактный тел.<span class="red">*</span></p>
+                    <div class="item_inp">
+                        <input type="tel" name="phone-number" placeholder="+7 (978) 783 85 62">
+                        <img class="inp_img" src="img/call.png" alt="">
+                    </div>
+                </div>
+                <div class="form_input_item">
+                    <input class="button-order" type="submit" name="submit" value="ВЫЗВАТЬ КОНСУЛЬТАНТА">
+                </div>
             </form>
         </div>
     </section>
@@ -400,9 +438,9 @@
                             <span class="contacts-head-btn_item">Остались вопросы?</span>
                             <span>Задайте их эксперту</span>
                         </div>
-                        <form class="form-button form-button-center" action="#">
-                            <button class="button-order">задать вопрос</button>
-                        </form>
+                        <div class="form-button form-button-center">
+                            <a href="pop-ap-question.html" class="button-order">задать вопрос</a>
+                        </div>
                     </div>
                 </div>
             </div>
